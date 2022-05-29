@@ -1,4 +1,4 @@
-from inventory.credentials import credentials
+from credentials import credentials
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from redis_om import get_redis_connection, HashModel
