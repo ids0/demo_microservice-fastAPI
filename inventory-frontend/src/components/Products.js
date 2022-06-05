@@ -1,6 +1,6 @@
 import { Wrapper } from "./Wrapper";
 import { useState, useEffect } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 export function Products() {
   const [product, setProducts] = useState([]);
 
